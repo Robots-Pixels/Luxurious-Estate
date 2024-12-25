@@ -10,7 +10,7 @@ export default function ListingItem({listing}) {
 
         <div
           style={{ backgroundImage: `url(${listing.imageUrls[0]})`}}
-          className="w-full aspect-[1.4/1] bg-cover bg-no-repeat bg-center hover:scale-110 transition-all"
+          className="w-full aspect-[1.4/1] bg-cover bg-no-repeat bg-center hover:scale-105 transition-all"
         >
         </div>
 
