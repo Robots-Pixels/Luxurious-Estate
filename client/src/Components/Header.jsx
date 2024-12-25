@@ -27,10 +27,10 @@ export default function Header() {
     }, [location.search])
 
   return (
-    <header className='bg-[#000] shadow-md sticky top-0 left-0 w-full z-20'>
-        <div className='flex justify-between items-center max-w-6xl mx-auto p-3'>
+    <header className='bg-[#000] shadow-neutral-800 shadow-sm sticky top-0 left-0 w-full z-20'>
+        <div className='flex justify-between items-center mx-auto p-3'>
             <Link to='/'>
-            <h1 className='font-bold text-sm sm:text-xl flex felx-wrap'>
+            <h1 className='font-bold text-sm sm:text-xl flex flex-wrap mr-3'>
                 <span className='text-[#faf8ff]'>Luxurious</span>
                 <span className='text-[#8685ef]' >Estate</span>
             </h1>
@@ -38,7 +38,7 @@ export default function Header() {
 
             <form 
             onSubmit={handleSubmit}
-            className='bg-[#faf8ff] p-3 rounded-lg flex items-center'>
+            className='hidden sm:flex bg-[#faf8ff] p-3 rounded-lg  items-center'>
                 <input 
                 onChange={(e) => setSearchTerm(e.target.value)}
                 value={searchTerm}
