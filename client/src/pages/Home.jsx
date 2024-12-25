@@ -60,16 +60,15 @@ export default function Home() {
         
         <h1 className='text-[#faf8ff] font-semibold text-4xl lg:text-7xl'>Votre havre de paix
           <br />
-          se trouve ici
+          se trouve <span className='text-[#8685ef]'>ici</span>
         </h1>
 
-        <div className="text-gray-400 text-xs sm:text-sm">
-          Luxurious Estate is the best place to find your next perfect place to live.
-
+        <div className="text-gray-400 text-[12px] sm:text-sm">
+        Luxurious Estate est le meilleur endroit pour trouver votre prochain lieu de vie idéal.
           <br />
 
-          We have a wide range of properties for you to choose from.
-        </div>
+          Nous vous proposons un large choix de propriétés parmi lesquelles choisir.
+          </div>
 
       </div>
 
